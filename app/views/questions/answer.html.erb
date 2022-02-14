@@ -1,2 +1,8 @@
-<h2>Question is <%= @question %></h2>
-<p>Answer is <%= @response %></p>
+<h1>Stupid Coaching</h1>
+<P><%= @question %></P>
+<p><em>You</em></p>
+<div class="coach-response">
+<p><%= @response %></p>
+<p><em>Your coach</em></p>
+</div>
+<%= link_to "Ask another question", "/ask" %>
